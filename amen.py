@@ -1,9 +1,10 @@
 class Car:
-    wheels = 4
-    color = "blue"
+    def __init__(self):
+        self.wheels = 4
+        self.color = "blue"
 
-    def getColor():
-        return color
+    def getColor(self):
+        return "rodas: " + str(self.wheels) + " | cor: " + self.color
 
 
 car = Car()
